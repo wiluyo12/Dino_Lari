@@ -1,0 +1,68 @@
+h2,
+h3 {
+  text-align: center;
+}
+
+/* .board1 {
+  background-image: url(bg.jpg);
+  color: red;
+} */
+#board {
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  background-image: url(bg.jpg);
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+#area {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  overflow: hidden;
+}
+@keyframes berlari {
+  0% {
+    background: url(run1.png);
+    background-size: 100% 100%;
+  }
+  20% {
+    background: url(run2.png);
+    background-size: 100% 100%;
+  }
+  50% {
+    background: url(run7.png);
+    background-size: 100% 100%;
+  }
+  70% {
+    background: url(run8.png);
+    background-size: 100% 100%;
+  }
+}
+#Dino {
+  background: url(run1.png);
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 50px;
+  animation: berlari 0.4s infinite; /*  animasi berlari*/
+  transition: 1s;
+}
+
+#box {
+  background-image: url(redbox.png);
+  width: 50px;
+  height: 50px;
+  margin-top: 210px;
+  margin-left: 600px;
+  background-size: 100% 100%;
+}
+
+#Dino.freeze {
+  animation: none;
+  background: url(run8.png);
+  background-size: 100% 100%;
+}
