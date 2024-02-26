@@ -1,2 +1,2 @@
-# Dino_Lari
-Project dino lari (harisenin/bootcamp)
+# Dino_Run
+Dino_Run Project  (harisenin/bootcamp)
